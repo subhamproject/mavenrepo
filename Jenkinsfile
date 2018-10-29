@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn -s ./root/.m2/settings.xml clean compile package deploy'
+                sh 'mvn -s settings.xml clean compile package deploy'
             }
         }
         stage('Test') {
