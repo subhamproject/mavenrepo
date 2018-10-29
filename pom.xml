@@ -27,14 +27,14 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>deployment</id>
+            <id>NexusServer</id>
             <name>Internal Releases</name>
-            <url>http://10.128.0.10:8081/repository/student-rel/</url>
+            <url>http://172.16.0.103:8081/repository/SAMPLE_REL//</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
+            <id>NexusServer</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://10.128.0.10:8081/repository/student-snap/</url>
+            <url>http://172.16.0.103:8081/repository/SAMPLE_SNAP/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
