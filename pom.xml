@@ -27,13 +27,13 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>NexusServer</id>
-            <name>NexusServer</name>
+            <id>deployment</id>
+            <name>deployment</name>
             <url>http://172.16.0.103:8081/repository/SAMPLE_REL//</url>
         </repository>
         <snapshotRepository>
-            <id>NexusServer</id>
-            <name>NexusServer</name>
+            <id>deployment</id>
+            <name>deployment</name>
             <url>http://172.16.0.103:8081/repository/SAMPLE_SNAP/</url>
         </snapshotRepository>
     </distributionManagement>
