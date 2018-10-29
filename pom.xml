@@ -28,12 +28,12 @@
    <distributionManagement>
         <repository>
             <id>NexusServer</id>
-            <name>Internal Releases</name>
+            <name>NexusServer</name>
             <url>http://172.16.0.103:8081/repository/SAMPLE_REL//</url>
         </repository>
         <snapshotRepository>
             <id>NexusServer</id>
-            <name>Internal Snapshot Releases</name>
+            <name>NexusServer</name>
             <url>http://172.16.0.103:8081/repository/SAMPLE_SNAP/</url>
         </snapshotRepository>
     </distributionManagement>
