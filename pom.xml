@@ -34,7 +34,7 @@
         <snapshotRepository>
             <id>NexusServer</id>
             <name>deployment</name>
-            <url>http://172.16.0.103:8081/repository/SAMPLE_SNAP/</url>
+            <url>http://172.16.0.103:8081/repository/SUBHAM_SNAP/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
